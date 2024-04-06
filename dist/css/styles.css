@@ -10796,3 +10796,32 @@ header.masthead .post-heading .meta a {
     font-size: 2.25rem;
   }
 }
+
+.sex-label {
+  /* Estilos específicos para el label de "Name" */
+  text-indent: -10px;
+}
+
+.message-label {
+  /* Estilos específicos para el label de "Name" */
+  text-indent: 300px;
+}
+.mod{
+  display: flex; /* Usa flexbox */
+  align-items: justify; 
+}
+
+.label {
+  display: inline-block;
+  width: 100px; /* Ajusta el ancho de los labels según sea necesario */
+  text-align: right;
+  margin-right: 10px; /* Espacio entre el label y el input */
+}
+
+.form-control {
+  width: calc(100% - 120px); /* Ancho del input, teniendo en cuenta el ancho del label y el margen */
+}
+
+.card {
+  height: 95%; /* Establece una altura fija para las tarjetas */
+}
